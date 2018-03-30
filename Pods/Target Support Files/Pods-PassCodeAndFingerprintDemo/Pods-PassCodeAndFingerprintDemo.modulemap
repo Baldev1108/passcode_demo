@@ -1,0 +1,6 @@
+framework module Pods_PassCodeAndFingerprintDemo {
+  umbrella header "Pods-PassCodeAndFingerprintDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

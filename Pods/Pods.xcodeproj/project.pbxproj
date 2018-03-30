@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183352BF4268FFD2849D3E6F34E6F902 /* PasswordDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109A6029FE385EFFF1C874C0A2EC4F52 /* PasswordDotView.swift */; };
+		3141D23718B15C75DA6670C1369DC5EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		53430CEE0280A447DC3699F11E5FDB0A /* Pods-PassCodeAndFingerprintDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2EBF13B94D398A18CDCB5617C921837 /* Pods-PassCodeAndFingerprintDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5763E94428A253E346C0C26576E3D6A9 /* PasswordContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26411E81AE9B887693AEE1120B268082 /* PasswordContainerView.xib */; };
+		5CA44D43ED85DF6CFD2BA54C47C98F8B /* PasswordUIValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1F2188D2B060CE4B741AAA83BCE41 /* PasswordUIValidation.swift */; };
+		7F69B20E8055D50F8EF09300AFAA7165 /* SmileLock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8739FD0FD13781ECC43A5C9021B1E60C /* SmileLock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86FDB385FDDA3382B70B3229110BE61F /* PasswordInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1C65B3FC93A865862BE48D4A89A852 /* PasswordInputView.swift */; };
+		C2A150D466F4C2DF2A21E8AF8CB956E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48D163C3FD64DD4E4265DFC7BCD9AA8 /* Assets.xcassets */; };
+		C55FA2F39D52ED690F9AF0E82F61F8D5 /* PasswordContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6E563C977A318DAC9DDDCC0ABF5C3E /* PasswordContainerView.swift */; };
+		CE72C11DA55567B673A3599BCC814C0D /* Pods-PassCodeAndFingerprintDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC4839457FBC8AD70D1A8E80150ACB /* Pods-PassCodeAndFingerprintDemo-dummy.m */; };
+		D0A0C9E91B7491CCA6F5E597B0F9364E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		D3171F03192B068582C2998840DB8F4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		EA2948B0FE012086BFC20D489BFA0836 /* SmileLock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDA795CD7F33811E2F61E6182B53341 /* SmileLock-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FD037E4B4AAD87D3A5BB098D2E1FFD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE2369ABAC3D99C2EF272A4F5842040F;
+			remoteInfo = SmileLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		109A6029FE385EFFF1C874C0A2EC4F52 /* PasswordDotView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordDotView.swift; path = SmileLock/Classes/PasswordDotView.swift; sourceTree = "<group>"; };
+		138C5880ABCB26DCCC3AE537F8CEE238 /* Pods-PassCodeAndFingerprintDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassCodeAndFingerprintDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1521332A54CEFBE48373A75CB516AF7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26411E81AE9B887693AEE1120B268082 /* PasswordContainerView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PasswordContainerView.xib; path = SmileLock/Assets/PasswordContainerView.xib; sourceTree = "<group>"; };
+		276FB95D076D6399779A86852D980A80 /* SmileLock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SmileLock.modulemap; sourceTree = "<group>"; };
+		2CAC4839457FBC8AD70D1A8E80150ACB /* Pods-PassCodeAndFingerprintDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PassCodeAndFingerprintDemo-dummy.m"; sourceTree = "<group>"; };
+		449A7EA843B3DEDD18E85DD858A6BE31 /* Pods-PassCodeAndFingerprintDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PassCodeAndFingerprintDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		5BDEAD660B7276FE83517E4B986567BC /* SmileLock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmileLock-prefix.pch"; sourceTree = "<group>"; };
+		60B43D6543BE2734215DF3C62228F12D /* Pods_PassCodeAndFingerprintDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PassCodeAndFingerprintDemo.framework; path = "Pods-PassCodeAndFingerprintDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D1F2188D2B060CE4B741AAA83BCE41 /* PasswordUIValidation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordUIValidation.swift; path = SmileLock/Classes/PasswordUIValidation.swift; sourceTree = "<group>"; };
+		8739FD0FD13781ECC43A5C9021B1E60C /* SmileLock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmileLock-umbrella.h"; sourceTree = "<group>"; };
+		8B74C869CBAB50ABB5DD54015394347D /* Pods-PassCodeAndFingerprintDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PassCodeAndFingerprintDemo.modulemap"; sourceTree = "<group>"; };
+		90CAD0C932D00152B7455D9DB76E3BE0 /* Pods-PassCodeAndFingerprintDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassCodeAndFingerprintDemo.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B0DAA44513830FDD8FF6DAEDC9BE25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB00F5F1FDD5737842DD137E8EBE76CF /* SmileLock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmileLock.xcconfig; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BB6E563C977A318DAC9DDDCC0ABF5C3E /* PasswordContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordContainerView.swift; path = SmileLock/Classes/PasswordContainerView.swift; sourceTree = "<group>"; };
+		C43FAEA22E931631117B47E5CBE9BF6F /* Pods-PassCodeAndFingerprintDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PassCodeAndFingerprintDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C48D163C3FD64DD4E4265DFC7BCD9AA8 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SmileLock/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E053E4E75F78C0C09484F09BB21FF101 /* Pods-PassCodeAndFingerprintDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PassCodeAndFingerprintDemo-frameworks.sh"; sourceTree = "<group>"; };
+		E2EBF13B94D398A18CDCB5617C921837 /* Pods-PassCodeAndFingerprintDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PassCodeAndFingerprintDemo-umbrella.h"; sourceTree = "<group>"; };
+		EE1C65B3FC93A865862BE48D4A89A852 /* PasswordInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordInputView.swift; path = SmileLock/Classes/PasswordInputView.swift; sourceTree = "<group>"; };
+		EFDA795CD7F33811E2F61E6182B53341 /* SmileLock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SmileLock-dummy.m"; sourceTree = "<group>"; };
+		FC4E60024460A81F02E3C3BCB4E65149 /* SmileLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SmileLock.framework; path = SmileLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4F6A42D4379480B461B51B2E2460EE /* Pods-PassCodeAndFingerprintDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PassCodeAndFingerprintDemo-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		393510CE6BCF52C370A1E69984BEFA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3141D23718B15C75DA6670C1369DC5EE /* Foundation.framework in Frameworks */,
+				D0A0C9E91B7491CCA6F5E597B0F9364E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8148E2A783BB04FFB7F0C8DFC784F67A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3171F03192B068582C2998840DB8F4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EB9DC35E317C5D58CD6DA9147B299C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53563852C104E99720FE87DB25230899 /* SmileLock */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2DC2C74DFF6E2DA4AC6E904B16ECA15C /* Pods-PassCodeAndFingerprintDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1521332A54CEFBE48373A75CB516AF7C /* Info.plist */,
+				8B74C869CBAB50ABB5DD54015394347D /* Pods-PassCodeAndFingerprintDemo.modulemap */,
+				C43FAEA22E931631117B47E5CBE9BF6F /* Pods-PassCodeAndFingerprintDemo-acknowledgements.markdown */,
+				449A7EA843B3DEDD18E85DD858A6BE31 /* Pods-PassCodeAndFingerprintDemo-acknowledgements.plist */,
+				2CAC4839457FBC8AD70D1A8E80150ACB /* Pods-PassCodeAndFingerprintDemo-dummy.m */,
+				E053E4E75F78C0C09484F09BB21FF101 /* Pods-PassCodeAndFingerprintDemo-frameworks.sh */,
+				FF4F6A42D4379480B461B51B2E2460EE /* Pods-PassCodeAndFingerprintDemo-resources.sh */,
+				E2EBF13B94D398A18CDCB5617C921837 /* Pods-PassCodeAndFingerprintDemo-umbrella.h */,
+				138C5880ABCB26DCCC3AE537F8CEE238 /* Pods-PassCodeAndFingerprintDemo.debug.xcconfig */,
+				90CAD0C932D00152B7455D9DB76E3BE0 /* Pods-PassCodeAndFingerprintDemo.release.xcconfig */,
+			);
+			name = "Pods-PassCodeAndFingerprintDemo";
+			path = "Target Support Files/Pods-PassCodeAndFingerprintDemo";
+			sourceTree = "<group>";
+		};
+		360BA0064D8A7ED060330D411E255824 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94B0DAA44513830FDD8FF6DAEDC9BE25 /* Info.plist */,
+				276FB95D076D6399779A86852D980A80 /* SmileLock.modulemap */,
+				AB00F5F1FDD5737842DD137E8EBE76CF /* SmileLock.xcconfig */,
+				EFDA795CD7F33811E2F61E6182B53341 /* SmileLock-dummy.m */,
+				5BDEAD660B7276FE83517E4B986567BC /* SmileLock-prefix.pch */,
+				8739FD0FD13781ECC43A5C9021B1E60C /* SmileLock-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SmileLock";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4717A1388DC07188DA778C82FA03A9D1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DC2C74DFF6E2DA4AC6E904B16ECA15C /* Pods-PassCodeAndFingerprintDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		53563852C104E99720FE87DB25230899 /* SmileLock */ = {
+			isa = PBXGroup;
+			children = (
+				BB6E563C977A318DAC9DDDCC0ABF5C3E /* PasswordContainerView.swift */,
+				109A6029FE385EFFF1C874C0A2EC4F52 /* PasswordDotView.swift */,
+				EE1C65B3FC93A865862BE48D4A89A852 /* PasswordInputView.swift */,
+				74D1F2188D2B060CE4B741AAA83BCE41 /* PasswordUIValidation.swift */,
+				A52C35D0A57B0A32330DC032E723AAC6 /* Resources */,
+				360BA0064D8A7ED060330D411E255824 /* Support Files */,
+			);
+			name = SmileLock;
+			path = SmileLock;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				1EB9DC35E317C5D58CD6DA9147B299C7 /* Pods */,
+				B2FA27165A4704881325741241E5E63D /* Products */,
+				4717A1388DC07188DA778C82FA03A9D1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A52C35D0A57B0A32330DC032E723AAC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C48D163C3FD64DD4E4265DFC7BCD9AA8 /* Assets.xcassets */,
+				26411E81AE9B887693AEE1120B268082 /* PasswordContainerView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B2FA27165A4704881325741241E5E63D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60B43D6543BE2734215DF3C62228F12D /* Pods_PassCodeAndFingerprintDemo.framework */,
+				FC4E60024460A81F02E3C3BCB4E65149 /* SmileLock.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6BD27A2B8B581B4F849B12A1AEEFFA78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53430CEE0280A447DC3699F11E5FDB0A /* Pods-PassCodeAndFingerprintDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF2A052F17C9E7612288BD3919EA029 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F69B20E8055D50F8EF09300AFAA7165 /* SmileLock-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AE2369ABAC3D99C2EF272A4F5842040F /* SmileLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD0D428FA8AFA34C937245CA2837834 /* Build configuration list for PBXNativeTarget "SmileLock" */;
+			buildPhases = (
+				33F9CDDA6CA9FB4CA7FF6D88E7BAFF4A /* Sources */,
+				393510CE6BCF52C370A1E69984BEFA33 /* Frameworks */,
+				4983933A8FB6AAFEC1325C8C7C0E2527 /* Resources */,
+				8AF2A052F17C9E7612288BD3919EA029 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmileLock;
+			productName = SmileLock;
+			productReference = FC4E60024460A81F02E3C3BCB4E65149 /* SmileLock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B758BF0D642747B5E28C14A356CBD880 /* Pods-PassCodeAndFingerprintDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5E5DC1C235B62E9904D0CCAAB9571E7 /* Build configuration list for PBXNativeTarget "Pods-PassCodeAndFingerprintDemo" */;
+			buildPhases = (
+				D326A2631B2103B34D1FD40F37374958 /* Sources */,
+				8148E2A783BB04FFB7F0C8DFC784F67A /* Frameworks */,
+				6BD27A2B8B581B4F849B12A1AEEFFA78 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C06566318F56DFCF4B06C088B937AB70 /* PBXTargetDependency */,
+			);
+			name = "Pods-PassCodeAndFingerprintDemo";
+			productName = "Pods-PassCodeAndFingerprintDemo";
+			productReference = 60B43D6543BE2734215DF3C62228F12D /* Pods_PassCodeAndFingerprintDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B2FA27165A4704881325741241E5E63D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B758BF0D642747B5E28C14A356CBD880 /* Pods-PassCodeAndFingerprintDemo */,
+				AE2369ABAC3D99C2EF272A4F5842040F /* SmileLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4983933A8FB6AAFEC1325C8C7C0E2527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A150D466F4C2DF2A21E8AF8CB956E6 /* Assets.xcassets in Resources */,
+				5763E94428A253E346C0C26576E3D6A9 /* PasswordContainerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33F9CDDA6CA9FB4CA7FF6D88E7BAFF4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55FA2F39D52ED690F9AF0E82F61F8D5 /* PasswordContainerView.swift in Sources */,
+				183352BF4268FFD2849D3E6F34E6F902 /* PasswordDotView.swift in Sources */,
+				86FDB385FDDA3382B70B3229110BE61F /* PasswordInputView.swift in Sources */,
+				5CA44D43ED85DF6CFD2BA54C47C98F8B /* PasswordUIValidation.swift in Sources */,
+				EA2948B0FE012086BFC20D489BFA0836 /* SmileLock-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D326A2631B2103B34D1FD40F37374958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE72C11DA55567B673A3599BCC814C0D /* Pods-PassCodeAndFingerprintDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C06566318F56DFCF4B06C088B937AB70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmileLock;
+			target = AE2369ABAC3D99C2EF272A4F5842040F /* SmileLock */;
+			targetProxy = 0FD037E4B4AAD87D3A5BB098D2E1FFD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A52884DFC7314EB5E290191C74F89EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB00F5F1FDD5737842DD137E8EBE76CF /* SmileLock.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmileLock/SmileLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmileLock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SmileLock/SmileLock.modulemap";
+				PRODUCT_NAME = SmileLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		323A24856F1A4871A780301AF5C02A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		84999A5AFB34163934C7F9C392066ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 138C5880ABCB26DCCC3AE537F8CEE238 /* Pods-PassCodeAndFingerprintDemo.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PassCodeAndFingerprintDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PassCodeAndFingerprintDemo/Pods-PassCodeAndFingerprintDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PassCodeAndFingerprintDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90277F3D4AD4FB80217520784E3C673B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB00F5F1FDD5737842DD137E8EBE76CF /* SmileLock.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmileLock/SmileLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmileLock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SmileLock/SmileLock.modulemap";
+				PRODUCT_NAME = SmileLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA33F186435244FD0FD5B7325332656C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F086EB13322F52A561A6A299845B9F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90CAD0C932D00152B7455D9DB76E3BE0 /* Pods-PassCodeAndFingerprintDemo.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PassCodeAndFingerprintDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PassCodeAndFingerprintDemo/Pods-PassCodeAndFingerprintDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PassCodeAndFingerprintDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A24856F1A4871A780301AF5C02A2A /* Debug */,
+				CA33F186435244FD0FD5B7325332656C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD0D428FA8AFA34C937245CA2837834 /* Build configuration list for PBXNativeTarget "SmileLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90277F3D4AD4FB80217520784E3C673B /* Debug */,
+				0A52884DFC7314EB5E290191C74F89EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5E5DC1C235B62E9904D0CCAAB9571E7 /* Build configuration list for PBXNativeTarget "Pods-PassCodeAndFingerprintDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84999A5AFB34163934C7F9C392066ED7 /* Debug */,
+				F086EB13322F52A561A6A299845B9F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
