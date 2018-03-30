@@ -15,6 +15,7 @@
 		982EE176206E32AE0072A63C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982EE174206E32AE0072A63C /* LaunchScreen.storyboard */; };
 		982EE17E206E3D410072A63C /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982EE17D206E3D410072A63C /* extension.swift */; };
 		982EE180206E47AA0072A63C /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982EE17F206E47AA0072A63C /* LocalAuthentication.framework */; };
+		988D9AF7206E557900E7C621 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988D9AF6206E557900E7C621 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		982EE177206E32AE0072A63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		982EE17D206E3D410072A63C /* extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 		982EE17F206E47AA0072A63C /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		988D9AF6206E557900E7C621 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CA2C579BC33048251DC12AE9 /* Pods_PassCodeAndFingerprintDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PassCodeAndFingerprintDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E72AFF9A4F45477709602DEB /* Pods-PassCodeAndFingerprintDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassCodeAndFingerprintDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PassCodeAndFingerprintDemo/Pods-PassCodeAndFingerprintDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +89,7 @@
 				982EE16B206E32AE0072A63C /* AppDelegate.swift */,
 				982EE17D206E3D410072A63C /* extension.swift */,
 				982EE16D206E32AE0072A63C /* ViewController.swift */,
+				988D9AF6206E557900E7C621 /* LoginViewController.swift */,
 				982EE16F206E32AE0072A63C /* Main.storyboard */,
 				982EE172206E32AE0072A63C /* Assets.xcassets */,
 				982EE174206E32AE0072A63C /* LaunchScreen.storyboard */,
@@ -224,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				988D9AF7206E557900E7C621 /* LoginViewController.swift in Sources */,
 				982EE17E206E3D410072A63C /* extension.swift in Sources */,
 				982EE16E206E32AE0072A63C /* ViewController.swift in Sources */,
 				982EE16C206E32AE0072A63C /* AppDelegate.swift in Sources */,

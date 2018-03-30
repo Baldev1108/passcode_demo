@@ -30,12 +30,18 @@ class PasswordLoginViewController: UIViewController {
         passwordContainerView.tintColor = UIColor.color(.textColor)
         passwordContainerView.highlightedColor = UIColor.color(.blue)
     }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        passwordContainerView.clearInput()
+    }
 }
 
 extension PasswordLoginViewController: PasswordInputCompleteProtocol {
     func passwordInputComplete(_ passwordContainerView: PasswordContainerView, input: String) {
         if validation(input) {
-            validationSuccess()
+            //validationSuccess()
+            let vc = storyboard?.instantiateViewController(withIdentifier: "LoginViewController") as? LoginViewController
+            self.present(vc!, animated: true, completion: nil)
         } else {
             validationFail()
         }
@@ -43,7 +49,9 @@ extension PasswordLoginViewController: PasswordInputCompleteProtocol {
     
     func touchAuthenticationComplete(_ passwordContainerView: PasswordContainerView, success: Bool, error: Error?) {
         if success {
-            self.validationSuccess()
+            //self.validationSuccess()
+            let vc = storyboard?.instantiateViewController(withIdentifier: "LoginViewController") as? LoginViewController
+            self.present(vc!, animated: true, completion: nil)
         } else {
             passwordContainerView.clearInput()
         }

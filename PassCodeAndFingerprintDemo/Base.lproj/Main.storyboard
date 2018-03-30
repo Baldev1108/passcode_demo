@@ -43,6 +43,35 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="190" y="29"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="tSN-dY-tCi">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="tJH-aX-01T" customClass="LoginViewController" customModule="PassCodeAndFingerprintDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pdj-Dt-Xbz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7C-hF-UrU">
+                                <rect key="frame" x="171" y="318.5" width="33" height="30"/>
+                                <state key="normal" title="Lock"/>
+                                <connections>
+                                    <action selector="lockScreenBtnClicked" destination="tJH-aX-01T" eventType="touchUpInside" id="F7B-hq-yex"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="u7C-hF-UrU" firstAttribute="centerX" secondItem="pdj-Dt-Xbz" secondAttribute="centerX" id="PzJ-8p-n5z"/>
+                            <constraint firstItem="u7C-hF-UrU" firstAttribute="centerY" secondItem="pdj-Dt-Xbz" secondAttribute="centerY" id="bMP-hl-6JV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kRD-w4-FWQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BkC-Gz-gdM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="836" y="30"/>
         </scene>
     </scenes>
 </document>
